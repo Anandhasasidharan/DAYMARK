@@ -1,0 +1,8 @@
+analyzer:
+  errors:
+    unused_import: error
+    dead_code: error
+  exclude:
+    - build/**
+    - windows/**
+    - .toolchain/**

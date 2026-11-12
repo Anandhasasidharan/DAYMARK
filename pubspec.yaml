@@ -1,0 +1,21 @@
+name: lifeos
+description: Private offline personal tracker for Windows.
+publish_to: none
+version: 0.2.0+2
+environment:
+  sdk: '>=3.13.0 <4.0.0'
+  flutter: '>=3.47.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  material_ui: ^1.11.0
+  sqflite_common_ffi: ^2.4.6
+  path_provider_windows: ^2.3.0
+  timezone: ^0.11.2
+  file_selector: ^1.1.0
+  flutter_local_notifications_windows: ^4.0.1
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+flutter:
+  uses-material-design: true
